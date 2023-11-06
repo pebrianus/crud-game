@@ -1,0 +1,59 @@
+* {box-sizing: border-box;
+}
+body {
+ font-family: Arial, Helvetica, sans-serif;}
+
+header {
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+background-image: url(Image/perpus.img);
+background-size: contain;
+backdrop-filter: ;
+ padding: 20px;
+ text-align: center;
+ font-size: 35px;
+ color: white;
+}
+
+nav {
+ float: left;
+ width: 15%;
+ height: 340px; 
+ background: #3C6ED0;
+ padding: 20px;}
+
+nav ul, li, a {
+list-style-type: none;
+ color: black;
+ text-decoration: none;
+ margin-bottom: 10px;
+ padding: 0;}
+
+ article {
+    float: left;
+    padding: 20px;
+    width: 85%;
+    background-color: #f1f1f1;
+    height: 340px;
+   }
+   
+   section:after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+   
+   footer {
+    background-color: darkblue;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+   }
+   @media (max-width: 600px) {
+    nav, article {
+    width: 100%;
+    height: auto;
+    }
+   }
+   

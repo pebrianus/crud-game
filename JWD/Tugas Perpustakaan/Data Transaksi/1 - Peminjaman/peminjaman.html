@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peminjaman Buku</title>
+    <link rel="stylesheet" href="../../CSS/layout.css">
+</head>
+<body>
+    <header>
+        <h2>Transaksi Peminjaman Buku</h2>
+    </header>
+    <form method="post" action="" name="frmtblpinjambuku">
+        <table border="0" cellspacing="0">
+            <tr>
+                <td>ID Buku</td>
+                <td>
+                    <input type="text" name="id">
+                </td>
+            </tr>
+            <tr>
+                <td>Tanggal Peminjaman</td>
+                <td><input type="date" name="tglpinjam"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Pengembalian</td>
+                <td><input type="date" name="tglkembali"></td>
+            </tr>
+            <tr>
+                <td>Durasi</td>
+                <td>
+                    <input type="text" name="durasi">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">
+                        SIMPAN
+                    </button>
+                    <button type="reset">
+                        RESET
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <a href="../../PerpustakaanApp.html"><p>Kembali ke Home</p></a>
+</body>
+</html>
